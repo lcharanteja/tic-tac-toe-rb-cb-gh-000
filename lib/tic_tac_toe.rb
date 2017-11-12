@@ -31,7 +31,8 @@ def turn(board)
     puts "Please enter position between 1-9"
     position = input_to_index(gets.strip)
   end
-  move(board,position,"X")
+  player = current_player(board)
+  move(board,position,player)
   display_board(board)
 end
 
