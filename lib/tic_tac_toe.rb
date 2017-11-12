@@ -70,5 +70,5 @@ def winner(board)
 end
 
 def play(board)
-
+  puts "Please enter position between 1-9"
 end
