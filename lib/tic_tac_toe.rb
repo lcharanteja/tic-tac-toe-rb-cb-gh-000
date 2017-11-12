@@ -73,9 +73,5 @@ end
 def play(board)
   until over?(board)
     turn(board)
-    if won?(board)
-      puts winner?(board)
-      return
-    end
   end
 end
